@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- 10 inch -->   
+    <string name="channel_select">Channel Select</string>
+    <string name="octave_select">Octave Select</string>
+	<string name="instrument_select">Instrument Select</string>
+	<string name="percussion_select">Percussion Select</string>	
+    <string name="checkbox_instrument">Instrument ON</string>
+    <string name="button_panic">Panic</string>
+ 	<string name="button_close">Close</string>
+	
+</resources>

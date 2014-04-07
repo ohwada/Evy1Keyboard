@@ -1,0 +1,94 @@
+<resources>
+<!-- 10 inch -->
+	<style name="key_white_upper">
+		<item name="android:layout_height">102dp</item>	
+		<item name="android:layout_marginTop">1dp</item>
+		<item name="android:layout_marginLeft">1dp</item>
+		<item name="android:layout_marginRight">1dp</item>			
+	</style>
+
+	<style name="key_white_upper_full" parent="key_white_upper">
+		<item name="android:src">@drawable/key_white_upper_full</item>
+		<item name="android:layout_width">132dp</item>
+	</style>
+
+	<style name="key_white_upper_left" parent="key_white_upper">
+		<item name="android:src">@drawable/key_white_upper_left</item>
+		<item name="android:layout_width">102dp</item>
+	</style>
+
+	<style name="key_white_upper_middle" parent="key_white_upper">
+		<item name="android:src">@drawable/key_white_upper_middle</item>
+		<item name="android:layout_width">72dp</item>
+	</style>
+	
+	<style name="key_white_upper_right" parent="key_white_upper">
+		<item name="android:src">@drawable/key_white_upper_right</item>
+		<item name="android:layout_width">102dp</item>
+	</style>
+
+	<style name="key_white_lower">
+		<item name="android:layout_width">132dp</item>
+		<item name="android:layout_height">150dp</item>
+		<item name="android:layout_marginLeft">1dp</item>
+		<item name="android:layout_marginRight">1dp</item>
+		<item name="android:layout_marginBottom">1dp</item>
+	</style>
+
+	<style name="key_white_lower_full" parent="key_white_lower">
+		<item name="android:src">@drawable/key_white_lower_full</item>
+	</style>
+
+	<style name="key_white_lower_left" parent="key_white_lower">
+		<item name="android:src">@drawable/key_white_lower_left</item>
+	</style>
+
+	<style name="key_white_lower_middle" parent="key_white_lower">
+		<item name="android:src">@drawable/key_white_lower_middle</item>
+	</style>
+
+	<style name="key_white_lower_right" parent="key_white_lower">
+		<item name="android:src">@drawable/key_white_lower_right</item>
+	</style>
+
+	<style name="key_black">
+		<item name="android:layout_width">60dp</item>
+		<item name="android:layout_height">100dp</item>
+		<item name="android:layout_marginLeft">1dp</item>
+		<item name="android:layout_marginRight">1dp</item>
+		<item name="android:layout_marginTop">1dp</item>
+		<item name="android:layout_marginBottom">2dp</item>
+		<item name="android:src">@drawable/key_black</item>
+	</style>
+
+	<style name="key_space">
+		<item name="android:layout_width">2dp</item>
+		<item name="android:layout_height">10dp</item>
+	</style>
+        										
+	<style name="key_perc">
+		<item name="android:layout_width">132dp</item>
+		<item name="android:layout_height">100dp</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_margin">2dp</item>
+		<item name="android:textColor">#FF000000</item>
+		<item name="android:background">@drawable/key_perc</item>
+	</style>
+
+	<style name="spiner_perc">
+		<item name="android:layout_width">250dp</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:prompt">@string/percussion_select</item>
+	</style>
+
+	<style name="button_panic">
+		<item name="android:layout_width">100dp</item>
+		<item name="android:layout_height">100dp</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_margin">10dp</item>
+		<item name="android:textColor">#FF000000</item>
+	</style>
+			
+</resources>
